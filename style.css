@@ -941,7 +941,7 @@ text-align: center;
 @media(max-width: 700px){
     .result-analysis{
         margin: auto;
-        overflow-x: auto;
+    
         
     }
 }
