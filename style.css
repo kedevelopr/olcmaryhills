@@ -113,7 +113,7 @@ nav .bi{
     display:none;
 }
 @media(max-width: 700px){
-    nav{
+    .nav-links{
         display:none;
     }
     .nav-links ul li{
