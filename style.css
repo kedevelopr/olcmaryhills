@@ -77,7 +77,7 @@ nav{
     padding: 2% 6%;
     justify-content: space-between;
 }
-nav img{
+.nav img{
 width:150px;
 }
 .nav-links{
@@ -113,6 +113,9 @@ nav .bi{
     display:none;
 }
 @media(max-width: 700px){
+    nav{
+        display:none;
+    }
     .nav-links ul li{
         display: block;
     }
