@@ -79,6 +79,7 @@ transform: translate(-50%, -50%);
 }
 .nav img{
 width:150px;
+display:none;    
 }
 .nav-links{
     flex:1;
@@ -115,6 +116,9 @@ nav .bi{
 
 @media(max-width: 700px){
     .nav-links{
+        display:none;
+    }
+    .nav img{
         display:none;
     }
     .nav-links ul li{
