@@ -368,13 +368,19 @@ margin-bottom: 5%;
 }
 @media(max-width: 700px){
     .school-story{
-        width:90%;
+        width:100%;
         margin:auto;
         padding-top:20px;
     } 
     .school-storys p{
         padding: 2px 2px;
+        text-align:left;
     }
+     .pic-storys {
+    border-radius: 50%;
+    justify-content:center;     
+    align-items:center;
+  }
 }
 .school-story{
     width:80%;
@@ -382,10 +388,11 @@ margin-bottom: 5%;
     padding-top:30px;
 }
 .school-storys{
-  flex-basis:39%;  
+  flex-basis:42%;  
 }
 .pic-storys{
-    flex-basis:59%;  
+    flex-basis:55%;
+    border-radius: 50%;
   }
   .pic-storys img{
     width:100%;  
