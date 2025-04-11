@@ -1039,3 +1039,144 @@ text-align: center;
     align-items: center;
     text-align: center;
 }
+.schooool-val{
+    width:80%;
+    margin:auto;
+    padding-top: 50px;
+}
+.row{
+    display:flex;
+    justify-content: space-between;
+}
+.containerrr{
+    flex-basis: 48%;
+    position:relative;
+    margin-bottom:5%;
+
+}
+.containerrr img{
+    width:100%;
+}
+.containerrr-two{
+    flex-basis: 48%;
+    position:relative;
+    margin-bottom:5%;
+    
+}
+.containerrr-two img{
+    width:100%;
+}
+.schooool-col{
+    position:absolute;
+    top:0;
+    left:30%;
+    padding-top: 30%;
+}
+.schooool-col h3{
+   color:aliceblue;
+   font-weight: bold;
+}
+.schooool-col h3::after{
+    content:"";
+    width: 100%;
+    height:2px;
+    background: #f44336;
+    display: block;
+   
+}
+.schooool-col ul{
+    padding-top:5%;
+}
+.schooool-col ul li{
+    padding-top:2%;
+    color:beige;
+    font-size: 16px;
+}
+@media(max-width: 700px){
+    schooool-col{
+        position:absolute;
+        top:0;
+        left:28%;
+        padding-top: 20%;
+    }
+    .schooool-col h3{
+        color:aliceblue;
+        font-size:16px;
+     }
+     .schooool-col h3::after{
+        content:"";
+        width: 50%;
+        height:2px;
+        background: #f44336;
+        display: block;
+       
+    }
+    .schooool-col ul{
+        padding-top:2%;
+    }
+    .schooool-col ul li{
+        padding-top:1%;
+        color:rgb(245, 245, 231);
+        font-size: 14px;
+    }
+}
+.schooool-coltwo{
+    position:absolute;
+    top:0;
+    left:30%;
+    padding-top: 20px;
+}
+.schooool-coltwo h2{
+    color:rgb(23, 81, 85);
+    font-weight: bold;
+}
+.schooool-coltwo h2::after{
+    content:"";
+    width: 100%;
+    height:2px;
+    background: #f44336;
+    display: block;
+   
+}
+.schooool-coltwo p{
+    color:rgb(37, 86, 90);
+    padding-top: 5%;
+    font-size: 18px;
+
+}
+@media(max-width: 700px){
+    .schooool-coltwo{
+        position:absolute;
+        top:0;
+        left:10%;
+        padding-top: 10px;
+    }  
+    .schooool-coltwo h2{
+        color:rgb(57, 157, 163);
+       font-size: 16px;
+    }
+    .schooool-coltwo h2::after{
+        content:"";
+        width: 70%;
+        height:2px;
+        background: #f44336;
+        display: block;
+       
+    }
+    .schooool-coltwo p{
+        color:#0ef;
+        padding-top: 4%;
+        font-size: 16px;
+    
+    }
+}
+@media(max-width: 700px){
+    .row{
+flex-direction: column;
+    }
+    .schooool-val{
+        width:90%;
+        margin:auto;
+        padding-top: 50px;
+    }
+}
