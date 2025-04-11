@@ -181,9 +181,6 @@ nav .bi{
     display: flex;
     margin:auto;
     justify-content:space-between;
-    border-style:solid;
-    border-color: rgb(215, 206, 206);
-        border-width:2px;
 }
 .location-col{
 flex-basis:31%;
