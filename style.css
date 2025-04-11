@@ -27,16 +27,16 @@ background-repeat:no-repeat;
 }
 @keyframes animate {
     0%,100%{
-        background-image: linear-gradient(rgba(12, 12, 177, 0.6),rgba(10, 10, 177, 0.6)),url(first/hds1.JPG);
+        background-image: linear-gradient(rgba(12, 12, 177, 0.5),rgba(10, 10, 177, 0.5)),url(first/hds1.JPG);
     }
     25%{
-        background-image: linear-gradient(rgba(27, 27, 141, 0.6),rgba(0,0,255,0.6)),url(first/hds2.jfif);
+        background-image: linear-gradient(rgba(27, 27, 141, 0.5),rgba(0,0,255,0.5)),url(first/hds2.jfif);
     } 
     50%{
-        background-image: linear-gradient(rgba(27, 27, 141, 0.6),rgba(0,0,255,0.6)),url(second/hds3.JPG);
+        background-image: linear-gradient(rgba(27, 27, 141, 0.5),rgba(0,0,255,0.5)),url(second/hds3.JPG);
     }
     75%{
-        background-image: linear-gradient(rgba(27, 27, 141, 0.6),rgba(0,0,255,0.6)),url(second/hds4.JPG);
+        background-image: linear-gradient(rgba(27, 27, 141, 0.5),rgba(0,0,255,0.5)),url(second/hds4.JPG);
     }
 }
 .text-box{
