@@ -72,20 +72,19 @@ transform: translate(-50%, -50%);
     font-size: 16px; 
     margin-top: 15px;
     color:white;
-   font-weight: 200;
+   font-weight: 300;
    border-style: solid;
    padding: 10px 15px;
-}
-.text-box span:hover{
     background-color: rgb(185, 136, 136);
-    cursor: pointer;
+    cursor: pointer; 
 }
+
 .nav{
     display:flex;
     padding: 2% 6%;
     justify-content: space-between;
 }
-nav  img{
+.nav  img{
 width:55px;
     height: 60px;
     border-radius:50%;
