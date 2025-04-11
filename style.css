@@ -373,7 +373,7 @@ margin-bottom: 5%;
         padding-top:20px;
     } 
     .school-storys p{
-        padding: 2px 2px;
+        padding: 2px 0px;
         text-align:left;
     }
      .pic-storys {
@@ -388,14 +388,16 @@ margin-bottom: 5%;
     padding-top:30px;
 }
 .school-storys{
-  flex-basis:42%;  
+  flex-basis:42%; 
+    text-align:left;
 }
 .pic-storys{
     flex-basis:55%;
     border-radius: 50%;
   }
   .pic-storys img{
-    width:100%;  
+    width:100%;
+      border-radius: 50%;
   }
 .school-storys h1{
     font-size:16px;
@@ -1096,8 +1098,8 @@ text-align: center;
     schooool-col{
         position:absolute;
         top:0;
-        left:20%;
-        padding-top: 15%;
+        left:15%;
+        padding-top: 10%;
     }
     .schooool-col h3{
         color: aliceblue;
