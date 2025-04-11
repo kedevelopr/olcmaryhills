@@ -118,7 +118,7 @@ nav .bi{
     .nav-links{
         display:none;
     }
-    .nav img{
+    #nav a img{
         display:none;
     }
     .nav-links ul li{
