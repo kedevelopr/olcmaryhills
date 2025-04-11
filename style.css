@@ -1058,6 +1058,7 @@ text-align: center;
 }
 .containerrr img{
     width:100%;
+    border-radius:4px;
 }
 .containerrr-two{
     flex-basis: 48%;
@@ -1067,6 +1068,7 @@ text-align: center;
 }
 .containerrr-two img{
     width:100%;
+    border-radius:4px;
 }
 .schooool-col{
     position:absolute;
