@@ -10,31 +10,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
     <body>
-        
-<section class="header">
-<div class="text-box">
-    <h1>OUR LADY OF MT. CARMEL <br>MARYHILL GIRLS HIGH SCHOOL</h1>
-    <p>ToiL FOR EXCELENCE</p> 
-    <span>scroll up</span> 
-</div>
-<nav>
-    
-        <img src="redil/carmel.j">
-        <div class="nav-links" id="navlink">
-            <i class="bi bi-x" onclick="hidemenu()"></i>
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="about us.html">ABOUT US</a></li>
-                <li><a href="location.html">LOCATION</a></li>
-                <li><a href="gallery.html">GALLERY</a></li>
-                <li><a href="bom.html">BOM</a></li>
+    <nav>
+            <img src="logoo/carmel.jfif">
+            <div class="nav-links" id="navlink">
+                <i class="bi bi-x" onclick="hidemenu()"></i>
+                <ul> 
+                   <li><a href="index.html">HOME</a></li>
+                   <li><a href="about us.html">ABOUT US</a></li>
+                   <li><a href="location.html">LOCATION</a></li>
+                   <li><a href="gallery.html">GALLERY</a></li>
+                   <li><a href="bom.html">BOM</a></li>
+                </ul>
+            </div>
+            <i class="bi bi-list" onclick="showmenu()"></i>
+        </nav>
+        <section class="hero">
+         <h1 class="anim"> MARYHILL GIRLS <br>HIGH SCHOOL<br></h1>
+            <p class="anim">SCHOOL MOTTO: <br>toil for excellence<br></p>
+            <button class="btn anim">SCROLL UP</button>
+<img src="PICTS/front1.jpg" class="log-pic anim">
+            
+        </section>    
 
-            </ul>
-        </div>
-       <i class="bi bi-list" onclick="showmenu()"></i>
-   
-</nav>
-</section>
 <section class="location-items">
 <div class="row">
     <div class="location-col">
@@ -239,20 +236,15 @@
     <div class="copy-statement"><h1>Maryhill Girls</h1><span><i class="bi bi-c-circle"></i></span><p>2025.</p></div>
 </section>
 <script>
-    var navlink = document.getElementById("navlink");
- function showmenu(){
-    navlink.style.right = "0";
- }
- function hidemenu(){
-    navlink.style.right = "-200px";
- }
-</script>
-        <script>
-            function showButton(){
-                const navlinks = document.querySelector(".nav-links");
-                if (navlinks){navlinks.style.diplay = 'block';}
-            }
-        </script>
+    var navlink= document. getElementById("navlink");
+    function showmenu(){
+        navlink.style.left = "0";
+    }
+    function hidemenu(){
+        navlink.style.left = "-200px";
+    }
+    </script>
+      
 <script type="text/javascript">
     var counter=1;
     setInterval(function(){
