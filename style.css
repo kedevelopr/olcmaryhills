@@ -1238,8 +1238,8 @@ flex-direction: column;
     background-size: cover;
     background-repeat: no-repeat;
     overflow:hidden;
-    margin-top: 30px;
-    margin-bottom: 5%;
+    margin-top: 15px;
+    margin-bottom: 2%;
 }
 .slider-container{
     position:relative;
