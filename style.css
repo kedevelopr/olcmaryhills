@@ -1297,12 +1297,12 @@ flex-direction: column;
 .slider-container:hover .slider{
     animation-play-state: paused;
 }
-@media (max-width: 400px) {
+@media (max-width: 600px) {
 
     .slider-container{
     position:relative;
-    width:270px;
-    height: 300px;
+    width:300px;
+    height: 400px;
     perspective: 1000px;
   
 }
@@ -1323,10 +1323,10 @@ flex-direction: column;
     transition:transform 1s;
 
 }
-.slide:nth-child(1){ transform: rotateY(0deg) translateZ(150px);}
-.slide:nth-child(2){ transform: rotateY(72deg) translateZ(150px);}
-.slide:nth-child(3){ transform: rotateY(144deg) translateZ(150px);}
-.slide:nth-child(4){ transform: rotateY(216deg) translateZ(150px);}
-.slide:nth-child(5){ transform: rotateY(288deg) translateZ(150px);}
-.slide:nth-child(6){ transform: rotateY(360deg) translateZ(150px);}
+.slide:nth-child(1){ transform: rotateY(0deg) translateZ(190px);}
+.slide:nth-child(2){ transform: rotateY(72deg) translateZ(190px);}
+.slide:nth-child(3){ transform: rotateY(144deg) translateZ(190px);}
+.slide:nth-child(4){ transform: rotateY(216deg) translateZ(190px);}
+.slide:nth-child(5){ transform: rotateY(288deg) translateZ(190px);}
+.slide:nth-child(6){ transform: rotateY(360deg) translateZ(190px);}
 }
