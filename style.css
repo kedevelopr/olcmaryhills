@@ -196,7 +196,7 @@ animation-delay: 1s;
 .location-items{
   width: 80%;
   margin: auto;
-  padding-top: 20px;  
+  padding-top: 2%;  
 }
 @media(max-width: 700px){
     .row{
@@ -205,7 +205,7 @@ animation-delay: 1s;
     .location-items{
         width: 90%;
         margin: auto;
-        padding-top: 5px;
+        padding-top: 2%;
     }
 }
 .row{
@@ -1307,7 +1307,8 @@ flex-direction: column;
   
 }
 .spinning-pic{
-   
+    margin-top: 5px;
+    margin-bottom: 1%;
     min-height: 60vh;
 }
 .slide{
