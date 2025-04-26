@@ -454,6 +454,9 @@ text-decoration: underline;
         margin:auto;
         text-align: center;
     } 
+    .school-story{
+    width:100%;
+    }
     .our-facilities{
         width:90%;
         margin:auto;
