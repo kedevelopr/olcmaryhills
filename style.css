@@ -1309,7 +1309,7 @@ flex-direction: column;
 .spinning-pic{
     margin-top: 5px;
     margin-bottom: 1%;
-    min-height: 60vh;
+    min-height: 50vh;
 }
 .slide{
     position:absolute;
