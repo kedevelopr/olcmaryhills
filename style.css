@@ -1359,7 +1359,7 @@ flex-direction: column;
         transform: translateX(0);
     }
     to{
-        transform: translateX(-1000%);
+        transform: translateX(-500%);
     }
 }
 
