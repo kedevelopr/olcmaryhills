@@ -1415,3 +1415,58 @@ flex-direction: column;
         
     }
 }
+
+
+
+.find-us{
+    width: 95%;
+margin: auto;
+padding-top:3%;
+}
+
+.subsub-col{
+flex-basis:48%;
+margin-bottom:30px;
+
+}
+.subsub-col input, .subsub-col textarea{
+    width:100%;
+    padding:15px;
+    margin-bottom:17px;
+    outline:none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.subsubtwo-col{
+    flex-basis:48%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(pic/DSC_11111.JPG);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 200px 0;
+    
+}
+.subsubtwo-col h1{
+    color: #fff;
+    margin-bottom: 40px;
+    margin:0;
+    font-size:xx-large;
+    font-weight: bold;
+    
+}
+
+@media(max-width: 600px){
+  
+    .subsub-col{
+padding-top:2%;
+}
+.subsubtwo-col h1{
+    font-size:24px;
+}
+.find-us{
+    width: 90%;
+margin: auto;
+padding-top:2%;
+}
+}
