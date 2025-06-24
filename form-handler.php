@@ -5,7 +5,7 @@ $subject = $_post['subject'];
 $message = $_post['message'];
 
 
-$email_from = 'info@olmcmaryhillgirls.com';
+$email_from = 'www.olmcmaryhillgirls.com';
 
 $email_subject = 'new form submission';
 
